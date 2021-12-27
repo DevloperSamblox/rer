@@ -1,0 +1,16 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nuxt storybook",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/storybook": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "@tailwindcss/jit": "latest",
+    "nuxt-edge": "latest",
+    "postcss": "latest"
+  }
+}
